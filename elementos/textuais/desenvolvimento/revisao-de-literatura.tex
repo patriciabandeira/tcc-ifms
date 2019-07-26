@@ -73,18 +73,20 @@ Neste Tópico será apresentado as Linguagens de Programação utilizadas no pro
 
 \subsection{PHP}
 
-Criada para atender as dificuldades do desenvolvedor e melhorada para as necessidades da sua comunidade, a Linguagem PHP é um esteriótipo do projeto Open Source, desenvolvida por Rasmus Lerdof no ano de 1995.
+Criada para atender as dificuldades do desenvolvedor e aperfeiçoada para as necessidades da comunidade de programadores, a Linguagem PHP é um esteriótipo do projeto Open Source, desenvolvida por Rasmus Lerdof no ano de 1995.
 
-Segundo \citeonline [p.5]{gilmore2011php}, a linguagem PHP foi criada para fim de praticidade. Lerdof não queria apenas uma linguagem nova no mercado, mas sim, uma solução de prontamente disponível, como resultado foi criada uma linguagem que permite ao usuário, construir aplicações mesmo que com pouco conhecimento.
+Segundo \citeonline [p.5]{gilmore2011php}, a linguagem PHP foi criada para fim de praticidade. Lerdof, o criador da linguagem não queria apenas mais uma novidade no mercado, mas sim, uma solução prontamente disponível, como resultado foi criada uma linguagem que permite ao usuário, construir aplicações mesmo que com pouco conhecimento.
 
-Os benefícios desta linguagem são a disposição de mais de 180 bibliotecas contendo mais de 1000 funções, a fácil implementação com suporte nativo oferecido por mais de 25 produtos de banco de dados e por ser uma linguagem Open Source é gratuito.
+Os benefícios de utilizar o PHP são a disposição de mais de 180 bibliotecas contendo mais de 1000 funções, além da fácil implementação com suporte nativo oferecido por mais de 25 produtos de banco de dados e por ser uma linguagem Open Source é gratuito.
+
+Para o gerenciamento das dependências em PHP, utiliza-se a ferramenta composer, o qual permiti que o desenvolvedor declare as bibliotecas das quais o projeto é dependente, para que assim seja realizado o gerenciamento(instalar/atualizar). \cite{composer}
 
 
 \subsection{JavaScript}
 
-A linguagem JavaScript foi desenvolvida com o objetivo de fornecer interatividade a uma página web. A primeira versão foi lançada em 1995 e implementada em março de 1996 pela Netscape, uma empresa de serviços de computadores do EUA, em parceria com a Sun Microsystems, uma empresa que vendia computadores, componentes e software, que contribuiu para o desenvolvimento de várias tecnologias. A San foi comprada pela Oracle Corporation em 2009,uma empresa de tecnologia multinacional americana.
+A linguagem JavaScript foi desenvolvida com o objetivo de fornecer interatividade a uma página web. A primeira versão foi lançada em 1995 e implementada em março de 1996 pela Netscape, uma empresa de serviços de computadores do EUA(Estados Unidos), em parceria com a Sun Microsystems, uma empresa que vendia computadores, componentes e software, que contribuiu para o desenvolvimento de várias tecnologias. A Sun foi comprada pela Oracle Corporation em 2009,uma empresa de tecnologia multinacional americana.
 
-O básico do JavaScript é definir uma API mínima para trabalhar com textos, arrays, datas e expressões regulares, não incluindo funções de entradas e saídas, como conexão de redes, armazenamento e gráficos. É utilizada pela maioria dos sites e navegadores modernos, incluindo consoles de jogos.\cite{flanagan2004javascript}
+O básico do JavaScript é definir uma API(\textit{Application Programming Interface}) mínima para trabalhar com textos, arrays, datas e expressões regulares, não incluindo funções de entradas e saídas como conexão de redes, armazenamento e gráficos. É utilizada pela maioria dos sites e navegadores modernos, incluindo consoles de jogos.\cite{flanagan2004javascript}
 
 \subsection{HTML5 e CSS3}
 
@@ -94,9 +96,10 @@ O básico do JavaScript é definir uma API mínima para trabalhar com textos, ar
 
 De acordo com \citeonline {sawaya2002dicionario}, autora do dicionário de Informática \& Internet, framework é um “conjunto de elementos e suas interligações constituindo a base de um sistema ou projeto”.
 
-Frameworks servem como ponto de partida no desenvolvimento de um projeto, pois reduz o código-fonte reaproveitando métodos, classes e funções presentes no projeto. Além disso, os frameworks fornecem um design padrão e ajustável, para tornar a interface agradável.\cite{gabardo2017laravel}
+Frameworks servem como ponto de partida no desenvolvimento de um projeto, pois reduz o código-fonte reaproveitando métodos, classes e funções presentes no projeto. Além disso, fornecem um design padrão e ajustável, para tornar a interface agradável.
+ \cite {gabardo2017laravel}   
 
-Segundo \citeonline {gabardo2017laravel}, existem diversos frameworks para quase todas as linguagens, de forma que o desenvolvedor possa escolher a que melhor atende as necessidades do sistema . Para este trabalho foram escolhidas duas Frameworks, para desenvolvimento mobile e web.
+Segundo \citeonline {gabardo2017laravel}, existem diversos frameworks para quase todas as linguagens, de forma que o desenvolvedor possa escolher a que melhor atende as necessidades do seu sistema . Para o desenvolvimento do presente trabalho, foram escolhidas duas Frameworks, para desenvolvimento mobile e web, o Ionic e o Laravel.
 
 \subsection{Ionic}
 
@@ -104,7 +107,7 @@ Segundo \citeonline {gabardo2017laravel}, existem diversos frameworks para quase
 
 \subsection{Laravel}
 
-O framework Laravel foi lançado em 2011, foi desenvolvido com o intuito de agilizar a criação de aplicações web. É um framework, que atualmente vem sendo cada vez mais utilizado pelos os programadores, pois um dos principais fatores que o tornam “especial”, é por possuir uma fácil instalação e configuração. 
+O framework Laravel foi lançado em 2011, desenvolvido com o intuito de agilizar a criação de aplicações web.Atualmente vem sendo cada vez mais utilizado pelos os programadores, pois um dos principais fatores que o torna “especial”, é possuir uma fácil instalação e configuração. 
 
 \begin{citacao}
 	Verificou-se os tipos especiais de teste que o framework Laravel fornece, como a parametrização de dados que, além de facilitar o desenvolvimento de software em relação aos relacionamentos do banco de dados, facilita o processo de automação de teste de software.\cite{pelizza2018estudo}
@@ -115,7 +118,6 @@ O Laravel é baseado na linguagem PHP, e uma de suas desvantagens é a necessida
 
 %Conectar isso aqui
 
-O composer trata-se de uma ferramenta para gerenciamento de dependências em PHP, permitindo que o desenvolvedor declare as bibliotecas das quais o projeto é dependente, para que assim seja realizado o gerenciamento(instalar/atualizar). \cite{composer}
 
 \section{Desenvolvimento Mobile}
 
@@ -130,19 +132,21 @@ Com o avanço dos Sistemas Operacionais tornou-se factível produzir aplicativos
 Segundo \citeonline []{emdesafios}, os aplicativos móveis possibilitaram a criação de novos modelos de negócio, em que o usuário pode ter acesso a novos recursos e serviços, por meio de lojas virtuais produzidas por fabricantes de dispositivos móveis. O principal benefício de surgimento de novos modelos é a ligação de serviços e aplicações avançadas de Internet ao aparelho mobile. Entretanto, existem diferentes plataformas tecnológicas para desenvolvimento mobile, incluindo sistemas operacionais e IDE's  (Integrated Development Environment), gerando uma ampla diversidade de soluções disponíveis no mercado. Os aplicativos móveis dependem de uma organização de código específico para que possam ser continuamente executados em diversas plataformas e versões.
 
 \begin{citacao}
-	"Limitações de plataforma para distribuição do aplicativo, como, tempo, custo para o desenvolvimento e complexidade das tecnologias necessárias para a sua criação e manutenção são pontos problemáticos em um projeto voltado ao desenvolvimento deste tipo de aplicativo."\cite{emdesafios}
+	"Limitações de plataforma para distribuição do aplicativo, como o tempo, custo para o desenvolvimento e complexidade das tecnologias necessárias para a sua criação e manutenção são pontos problemáticos em um projeto voltado ao desenvolvimento deste tipo de aplicativo."\cite{emdesafios}
 \end{citacao}
 
 Seguindo essa linha de pensamento existem duas maneiras de categorizar
-aplicativos, nativas e web, ambos com seus prós e contras. Há também aplicações multiplataformas que englobam algumas funcionalidades de ambas categorias. Pensando nisso é fundamental saber qual utilizar na hora de planejar um desenvolvimento mobile.
+aplicativos: nativas e web, ambos com seus prós e contras. Há também aplicações multiplataformas que englobam algumas funcionalidades de ambas categorias. Pensando nisso é fundamental saber qual utilizar na hora de planejar um desenvolvimento mobile.
 
 \subsection{Desenvolvimento de Aplicações Web e Mobile}
 
 Uma aplicação web móvel nada mais é que um site em formato para celulares, que pode ser acessado de um navegador Web instalado no dispositivo. Tal qual um ambiente web tradicional, é desenvolvido utilizando as linguagens HTML para texto estáticos e imagens, CSS para o design da tela e JavaScript que é responsável pelos efeitos na aplicação. Por serem baseados em navegadores web, as aplicações podem ser executadas em quaisquer dispositivos que possuem acesso a internet.\cite{emdesafios}
 
+ No desenvolvimento de aplicações web e mobile, ter o conhecimento e saber diferenciar um site responsivo, de um web híbrido e WebApp pode contribuir muito para um bom desenvolvimento. Os sites responsivos são aqueles que adaptam o tamanho de suas páginas(alteração de layout)ao tanho da tela que está sendo exibido,podendo ser um dispositivo móvel ou desktop, facilitando assim ao usuário o acesso a informações. Já WebApp é uma página da internet acessada como qualquer outro site através de um navegador, que geralmente é desenvolvido em HTML5, no qual o usuário tem a opção de instalar o app em seu dispositivo, porém, diferente do app nativo e do híbrido, o WebApp não utiliza as funcionalidades do aparelho, como a câmera e GPS,além de não ocupar a memória do dispositivo.O acesso e visualização de conteúdo só é possível por meio da conexão com a internet. Contudo, o Web híbrido diferente do app nativo não foi desenvolvido completamente em uma linguagem específica de cada sistema operacional, pois engloba várias linguagens e possui dois formatos: metade nativo e  outra WebApp, por esta razão possui um custo mais baixo de desenvolvimento.
+ 
 Segundo \citeonline {emdesafios}, as aplicações web são mais baratas, de fácil manutenção e não ocupam memória no dispositivo,pois, não precisam ser instaladas, o que as torna vantajosas devido ao fato de serem compatíveis com diversas plataformas.
 
-Mesmo com as diversas vantagens, é necessário o acesso constante à internet em uma velocidade satisfatória para que haja uma rápida troca de dados com os servidores, além de que se o sistema precisar utilizar recursos e funcionalidades do dispositivo as aplicações web podem ser consideradas descartadas.\cite{toledo2016desenvolvimento}.
+%Mesmo com as diversas vantagens, é necessário o acesso constante à internet em uma velocidade satisfatória para que haja uma rápida troca de dados com os servidores, além de que se o sistema precisar utilizar recursos e funcionalidades do dispositivo as aplicações web podem ser consideradas descartadas.\cite{toledo2016desenvolvimento}.
 
 Como as aplicações nativas, aplicativos web necessitam de vários testes para adequar ao tamanho de tela dos dispositivos e as exigências de cada navegador, uma vez que o mercado de smartphones é amplo e cada fabricante faz uso de navegadores que se adaptam melhor ao seus produtos.
 
@@ -151,9 +155,9 @@ Como as aplicações nativas, aplicativos web necessitam de vários testes para 
 
 Aplicativos Nativos são aplicações desenvolvidas para determinados SOs, com Linguagens de programação e IDEs específicas. Cada qual com sua responsabilidade, O sistema operacional é responsável por gerenciar os recursos do dispositivo, a linguagem é utilizada na programação do software e o IDE dispõe ferramentas que ajudam na programação da aplicação.
 
-Com a finalidade de melhorar a interação com o usuário, aplicações nativas utilizam recursos presentes no aparelho,como dispositivos de hardware (GPS, microfone, magnetômetro e câmera) e software (e-mails,  calendário, contatos, fotografias e telefone), para isto os aplicativos são instalados diretamente no sistema operacional, facilitando o uso da aplicação no modo off-line, caso não haja acesso a internet.\cite{toledo2016desenvolvimento}
+Com a finalidade de melhorar a interação com o usuário, aplicações nativas utilizam recursos presentes no aparelho,como dispositivos de hardware (GPS, microfone, magnetômetro e câmera) e software (e-mails,  calendário, contatos, fotografias e telefone), para isto os aplicativos são instalados diretamente no sistema operacional, facilitando o uso da aplicação no modo off-line.\cite{toledo2016desenvolvimento}
 
-Apesar das múltiplas funcionalidades, aplicativos nativos não são fáceis de desenvolver, pois para ser executado em diversos dispositivos é preciso utilizar uma variedade de plataformas e programar de forma que funcione diversas versões. Devido a grande quantidade de plataformas, mantê-lo atualizado é desvantajoso, pois faz-se necessário uma variedade de teste e distribuição para cada versão.
+Apesar das múltiplas funcionalidades, aplicativos nativos não são fáceis de desenvolver, pois para ser executado em diversos dispositivos é preciso utilizar uma variedade de plataformas e programar de forma que funcione diversas versões, por esta razão, mantê-lo atualizado é desvantajoso, pois faz-se necessário uma variedade de teste e distribuição para cada versão.
 
 \subsection{Desenvolvimento de Aplicações Híbridas}
 
